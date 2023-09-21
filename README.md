@@ -53,12 +53,7 @@ It should be specific enough that you can determine that e.g. feature A is in-sc
 
 ## 4. Solution Concept
 
-This section provides a high-level outline of the solution.
-
-Global Architectural Structure Of the Project:
-
-This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
-
+The architecture of our solution starts with a data collection layer, which consists of an API gateway and instrumentation. The API gateway will capture data about each incoming request, such as request headers, payload, and metadata, while the instrumentation will collect data on request handling, response times, errors, and other relevant metrics. This information will then be passed into a data ingestion and processing layer, which includes a message queue that will be responsible for publishing data events into the queue. From here, the information will be either stream-processed or batch-processed. The stream processing will be done to handle the real-time analytics and log/event processing. The batch processing will be done to handle historical data that can be used for analytics, machine learning, or generating reports. The next layer of our solution is data storage. The data storage layer contains a time-series database which is responsible for storing time-series data for metrics such as request/response times, error rates, and traffic volume. Additionally, there will be log/trace storage which will provide detailed information regarding the log and trace data that is collected. The next layer is data visualization and dashboarding. This will be used to visualize and monitor all of the information that is being collected and gives the ability to create alert systems for different metrics. 
  
 
 Design Implications and Discussion:
