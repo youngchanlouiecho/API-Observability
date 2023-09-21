@@ -35,11 +35,13 @@ With these goals in mind, our project will empower different organizations to ea
 
 ## 2. Users/Personas Of The Project:
 
-This section describes the principal user roles of the project together with the key characteristics of these roles. This information will inform the design and the user scenarios. A complete set of roles helps in ensuring that high-level requirements can be identified in the product backlog.
+This product would be designed for various stakeholders involved in development and upkeep of API development and management. The product how ever will target: 
 
-Again, the description should be specific enough that you can determine whether user A, performing action B, is a member of the set of users the project is designed for.
+ - **API Developers**: Individuals responsible for designing, building, and maintaining REST and gRPC APIs so that they can efficiently manage and document their system.
+ - **API Consumers**: Developers or applications that rely on their organization's APIs who want easy-access to comprehensive API documentation and authentication methods.
+ - **DevOps Teams**: Operation teams that aim to deploy and maintain APIs in the cloud for high availability and performance tracking
+ - **Product Managers**: Individuals who monitor the metrics, and user-behaviors of their system to make informed data-driven decisions. 
 
-** **
 
 ## 3.   Scope and Features Of The Project:
 
