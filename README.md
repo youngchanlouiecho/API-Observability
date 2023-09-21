@@ -72,7 +72,26 @@ The architecture of our solution starts with a data collection layer, which cons
 
 ## 5. Acceptance criteria
 
-This section discusses the minimum acceptance criteria at the end of the project and stretch goals.
+#### Inventory Creation:
+- The system should allow users to create and maintain an inventory of API services.
+- The inventory should capture essential details for each API, such as name, description, version, owner, and endpoint URL.
+
+#### API Type Support:
+- The system should support the tracking of APIs developed in both REST and gRPC.
+
+#### REST API Details:
+- For REST APIs, the system should capture information like HTTP methods (GET, POST, PUT, DELETE), request/response formats (JSON, XML), and authentication mechanisms.
+
+#### gRPC API Details:
+- For gRPC APIs, the system should record details about the service methods, request/response message types, and authentication mechanisms.
+
+#### Usage Metrics:
+- The system should collect usage metrics for each API, including the number of requests, response times, and error rates.
+- Users should be able to view historical usage data and trends for informed decision-making.
+
+#### Security and Access Control:
+- The system should enforce access control to ensure that only authorized personnel can view and modify API details.
+- Sensitive information related to APIs should be protected.
 
 ## 6.  Release Planning:
 
