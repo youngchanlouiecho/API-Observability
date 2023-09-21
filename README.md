@@ -64,9 +64,11 @@ This section discusses the minimum acceptance criteria at the end of the project
 
 ## 6.  Release Planning:
 
-Release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher level details for the first iteration is expected.
-
-** **
+### Sprint 23A (Sept 22 to Sept 29)
+- Meet with mentor to learn demands and requirements for the project
+- Familiarize ourselves with gRPC and Observability
+- Investigate and plan cloud development considerations, including cloud service selection
+- Investigate metric measurement applications, and evaluate intergration options with metrics and visualization tools.
 
 ## General comments
 
