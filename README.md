@@ -23,6 +23,16 @@ The vision section describes the final desired state of the project once the pro
 
 The vision statement should be specific enough that you can look at a proposed solution and say either "yes, this meets the vision and goals", or "no, it does not".
 
+Our vision for this project is to construct an efficient system for effectively managing various APIs. We aspire to create a solution that encompasses innovation, speed, and informed decision-making by providing an inventory and measurement framework for RESTful and gRPC APIs.
+
+Our Goals:
+
+- **API Management**: We aim to simplify the complexity of API management by offering a platform that allows users to effortlessly track and monitor their API services.
+- **Enhanced Speed**: One of our goals is to accelerate the development of services, enabling businesses to stay competitive in a rapidly evolving digital world. This will be achieved through the use of cloud-native application development practices.
+- **Support for REST and gRPC**: Our project will support RESTful and gRPC API development practices, ensuring compatibility with various integration methods and allowing organizations to choose the solution that best fits their needs.
+
+With these goals in mind, our project will empower different organizations to easily align their business objectives with API strategies, ultimately increasing their performance and competitiveness.
+
 ## 2. Users/Personas Of The Project:
 
 This section describes the principal user roles of the project together with the key characteristics of these roles. This information will inform the design and the user scenarios. A complete set of roles helps in ensuring that high-level requirements can be identified in the product backlog.
